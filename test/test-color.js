@@ -1,5 +1,8 @@
-const color = require('../color');
+/* eslint-disable */
 const test = require('tape');
+
+const color = require('../src/color');
+
 
 test('should include color names', t => {
   t.deepEqual('magenta' in color.names, true);

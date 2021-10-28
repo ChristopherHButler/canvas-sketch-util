@@ -1,6 +1,9 @@
+/* eslint-disable */
 const test = require('tape');
-const math = require('../math');
-const index = require('../');
+
+const index = require('../src');
+const math = require('../src/math');
+
 
 test('should have math functions', t => {
   t.notEqual(typeof index.math, 'undefined');

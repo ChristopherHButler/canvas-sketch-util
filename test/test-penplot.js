@@ -1,5 +1,7 @@
+/* eslint-disable */
 const test = require('tape');
-const penplot = require('../penplot');
+
+const penplot = require('../src/penplot');
 // const convert = require('convert-length');
 
 test('should return a physical SVG', t => {

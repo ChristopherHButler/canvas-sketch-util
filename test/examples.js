@@ -1,5 +1,6 @@
-const math = require('../math');
-const random = require('../random');
+/* eslint-disable */
+const math = require('../src/math');
+const random = require('../src/random');
 
 // Linear interpolation
 console.log(math.lerp(0, 50, 0.5)); // -> 25

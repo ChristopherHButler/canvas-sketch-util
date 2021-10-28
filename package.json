@@ -1,6 +1,6 @@
 {
   "name": "canvas-sketch-util-umd",
-  "version": "1.10.2",
+  "version": "1.10.4",
   "description": "Utilities for sketching in Canvas, WebGL and generative art",
   "main": "./src/index.js",
   "license": "MIT",
@@ -45,10 +45,11 @@
     "test": "npm run lint && tape test/test-*.js",
     "lint": "npm run lint:es5 && npm run lint:es6",
     "lint:es6": "semistandard",
-    "lint:es5": "eslint --parser-options=ecmaVersion:5 --no-eslintrc *.js lib/*.js",
+    "lint:es5": "eslint --parser-options=ecmaVersion:5 --no-eslintrc src/*.js",
     "build": "npm run build:min && npm run build:unmin",
-    "build:min": "NODE_ENV=production rollup --config",
-    "build:unmin": "NODE_ENV=production rollup --config --file dist/bundle.min.js"
+    "build:min": "NODE_ENV=production rollup --config --file lib/umd/index.min.js",
+    "build:unmin": "NODE_ENV=production rollup --config",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "genart",

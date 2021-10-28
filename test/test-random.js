@@ -1,6 +1,9 @@
+/* eslint-disable */
 const test = require('tape');
-const random = require('../random');
+
 const index = require('../');
+const random = require('../src/random');
+
 
 test('should have random functions', t => {
   t.notEqual(typeof index.random, 'undefined');

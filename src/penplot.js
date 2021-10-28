@@ -5,7 +5,7 @@ var svgPathContours = require('svg-path-contours');
 var svgPathParse = require('parse-svg-path');
 var svgPathAbs = require('abs-svg-path');
 var svgPathArcs = require('normalize-svg-path');
-var optimizer = require('./lib/optimize-penplot-paths');
+var optimizer = require('./optimize-penplot-paths');
 var geometry = require('./geometry');
 
 var DEFAULT_PEN_THICKNESS = 0.03;

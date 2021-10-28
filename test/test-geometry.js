@@ -1,5 +1,7 @@
+/* eslint-disable */
 const test = require('tape');
-const geometry = require('../geometry');
+
+const geometry = require('../src/geometry');
 
 test('should clip lines', t => {
   const lines = [

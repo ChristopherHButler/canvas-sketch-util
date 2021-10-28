@@ -1,9 +1,9 @@
-var cssColor = require('../lib/css-color');
-var names = require('../lib/css-color-names.json');
-var rgbLuminance = require('../lib/relative-luminance');
-var HSLUtil = require('../lib/hsl');
-var hexToRGBA = require('../lib/hex-to-rgba');
-var RGBAToHex = require('../lib/rgba-to-hex');
+var cssColor = require('./css-color');
+var names = require('./css-color-names.json');
+var rgbLuminance = require('./relative-luminance');
+var HSLUtil = require('./hsl');
+var hexToRGBA = require('./hex-to-rgba');
+var RGBAToHex = require('./rgba-to-hex');
 
 module.exports.parse = cssColor.parse;
 module.exports.style = cssColor.style;

@@ -1,5 +1,6 @@
 var floatHSL2RGB = require('float-hsl2rgb');
 var floatRGB2HSL = require('float-rgb2hsl');
+
 var wrap = require('./wrap');
 
 module.exports.RGBAToHSLA = RGBAToHSLA;
