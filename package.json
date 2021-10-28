@@ -64,7 +64,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/canvas-sketch-util.git"
+    "url": "https://github.com/ChristopherHButler/canvas-sketch-util"
   },
   "homepage": "https://github.com/ChristopherHButler/canvas-sketch-util",
   "bugs": {
