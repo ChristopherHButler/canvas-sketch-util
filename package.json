@@ -1,6 +1,6 @@
 {
   "name": "canvas-sketch-util-umd",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "Utilities for sketching in Canvas, WebGL and generative art",
   "main": "./src/index.js",
   "license": "MIT",
