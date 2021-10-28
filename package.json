@@ -1,13 +1,13 @@
 {
   "name": "canvas-sketch-util-umd",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "Utilities for sketching in Canvas, WebGL and generative art",
   "main": "./src/index.js",
   "license": "MIT",
   "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
+    "name": "Christopher Butler",
+    "email": "christopher.harold.butler@gmail.com",
+    "url": "https://github.com/ChristopherHButler"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -66,8 +66,8 @@
     "type": "git",
     "url": "git://github.com/mattdesl/canvas-sketch-util.git"
   },
-  "homepage": "https://github.com/mattdesl/canvas-sketch-util",
+  "homepage": "https://github.com/ChristopherHButler/canvas-sketch-util",
   "bugs": {
-    "url": "https://github.com/mattdesl/canvas-sketch-util/issues"
+    "url": "https://github.com/ChristopherHButler/canvas-sketch-util/issues"
   }
 }

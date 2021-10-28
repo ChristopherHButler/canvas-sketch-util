@@ -1,4 +1,8 @@
-# canvas-sketch-util
+# canvas-sketch-util-umd
+
+A fork of Matt DesLauriers' 1.10.0 build of [canvas-sketch-util](https://github.com/mattdesl/canvas-sketch/) to include a UMD build.
+
+All credit to the original author. This repo is just for testing for my owm purposes and hopfully he may accept a pull request for this code later.
 
 Utilities for generative art in Canvas, WebGL and JavaScript.
 
