@@ -1,6 +1,6 @@
 {
   "name": "canvas-sketch-util-umd",
-  "version": "1.10.5",
+  "version": "1.10.6",
   "description": "Utilities for sketching in Canvas, WebGL and generative art",
   "main": "./lib/index.js",
   "browser": "./lib/index.umd.js",
@@ -62,6 +62,9 @@
     "geom",
     "geometry",
     "random"
+  ],
+  "files": [
+    "lib/"
   ],
   "repository": {
     "type": "git",
