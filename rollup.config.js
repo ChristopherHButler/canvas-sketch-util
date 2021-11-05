@@ -4,28 +4,32 @@ import resolve from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
 
+import packageJSON from './package.json';
+
 
 const config = {
   input: './src/index.js',
   output: [
     {
-      file: 'lib/cjs/index.js',
+      file: packageJSON.main,
       format: 'cjs',
+      exports: 'named',
       name: 'canvasSketchUtil',
       sourcemap: true,
+      strict: false,
     },
     {
-      file: 'lib/umd/index.js',
+      file: packageJSON.browser,
       format: 'umd',
       name: 'canvasSketchUtil',
       sourcemap: true,
     },
+    
   ],
   plugins: [
     resolve(),  // To locate 3rd party modules in node_modules
     commonjs(), // To use CommonJS syntax
     json(),     // To import json
- // terser(),   // To minify your bundle
   ],
 };
 

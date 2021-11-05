@@ -1,8 +1,10 @@
 {
   "name": "canvas-sketch-util-umd",
-  "version": "1.10.4",
+  "version": "1.10.5",
   "description": "Utilities for sketching in Canvas, WebGL and generative art",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
+  "browser": "./lib/index.umd.js",
+  "module": "./lib/index.es.js",
   "license": "MIT",
   "author": {
     "name": "Christopher Butler",
@@ -46,10 +48,8 @@
     "lint": "npm run lint:es5 && npm run lint:es6",
     "lint:es6": "semistandard",
     "lint:es5": "eslint --parser-options=ecmaVersion:5 --no-eslintrc src/*.js",
-    "build": "npm run build:min && npm run build:unmin",
-    "build:min": "NODE_ENV=production rollup --config --file lib/umd/index.min.js",
-    "build:unmin": "NODE_ENV=production rollup --config",
-    "prepublish": "npm run build"
+    "build": "NODE_ENV=production rollup --config",
+    "prepublish": "rm -rf lib && npm run build"
   },
   "keywords": [
     "genart",
